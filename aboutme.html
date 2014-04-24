@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+   </ul>
+
+ </body>
+</html>
+
+<script>
+  document.getElementsByTagName('body')[0].style.fontFamily = "Arial, sans-serif"
+  
+  document.getElementsById('nickname').innerHTML = "Stas"
+  document.getElementsById('favorites').innerHTML = "Stas"
+  document.getElementsById('hometown').innerHTML = "Toronto"
+
+  var listItems = document.getElementsByTagName('li');
+  for (var 1 = 0; i < listItems.length; i++) {
+    listItems[i].className = "listitems";
+  }
+
+  
+
+</script>

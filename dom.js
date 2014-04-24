@@ -10,34 +10,28 @@
 // Find the Google search button and store it in a variable.
 // Modify the text of the button so that it says "Yahooo!" instead.
 
+
+var logo = document.getElementById('lga');
+logo.background = "url('http://assets.fontsinuse.com/static/use-media-items/15/14246/full-2048x768/52c4c6bc/Yahoo_Logo.png') no-repeat"
+var searchButton = document.getElementById('f')
+searchButton.innerHTML = "Yahoo Search"
+
 // EXERCISE: About Me
 
 // Cuz every webpage needs an "About" section.
 
 // Start with this HTML and save it as "aboutme.html":
-// <!DOCTYPE html>
-// <html>
-//  <head>
-//   <meta charset="utf-8"/>
-//   <title>About Me</title>
-// </head>
-// <body>
-//   <h1>About Me</h1>
 
-//   <ul>
-//     <li>Nickname: <span id="nickname"></span>
-//     <li>Favorites:  <span id="favorites"></span>
-//     <li>Hometown: <span id="hometown"></span>
-//    </ul>
-
-//  </body>
-// </html>
 
 // Add a script tag to the bottom.
 // Change the body style so it has a font-family of "Arial, sans-serif".
 // Replace each of the spans (nickname, favorites, hometown) with your own information.
 // Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page.
+
+
+
+
 
 // EXERCISE: The Book List
 
