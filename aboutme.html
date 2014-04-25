@@ -17,17 +17,20 @@
 </html>
 
 <script>
-  document.getElementsByTagName('body')[0].style.fontFamily = "Arial, sans-serif"
+  document.getElementsByTagName('body')[0].style.fontFamily = "New Times Roman"
   
-  document.getElementsById('nickname').innerHTML = "Stas"
-  document.getElementsById('favorites').innerHTML = "Stas"
-  document.getElementsById('hometown').innerHTML = "Toronto"
+  document.getElementById('nickname').innerHTML = "Stas"
+  document.getElementById('favorites').innerHTML = "Stas"
+  document.getElementById('hometown').innerHTML = "Toronto"
+
 
   var listItems = document.getElementsByTagName('li');
-  for (var 1 = 0; i < listItems.length; i++) {
+  for (var i = 0; i < listItems.length; i++) {
     listItems[i].className = "listitems";
   }
 
-  
+  for (var i = 0; i < listItems.length; i++) {
+    listItems[i].style.color = "blue";
+  }
 
 </script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book List</title>
+  </head>
+  <body>
+    <h1>Book List</h1>
+
+  </body>
+</html>
+
+<script>
+  var pageNode = document.getElementsByTagName('body')[0];
+  var books = [
+  ["Game of Thrones", "George Martin", "Yes"],
+  ["East of Eden", "John Steinbeck", "Yes"],
+  ["Bitmaker Book", "Labs Co", "No"]];
+
+  for (i = 0; i < books.length; i++){
+    var newPar = document.createElement('p')
+    var titleAuthor = "Title: " + books[i][0] + " ---  Author: " + books[i][1]
+    var paragraphText = document.createTextNode(titleAuthor);
+    newPar.appendChild(paragraphText);
+    pageNode.appendChild(newPar);
+  }
+</script>

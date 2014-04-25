@@ -30,9 +30,6 @@ searchButton.innerHTML = "Yahoo Search"
 // Create a new img element and set its src attribute to a picture of you. Append that element to the page.
 
 
-
-
-
 // EXERCISE: The Book List
 
 // Keep track of which books you read and which books you want to read!
@@ -44,3 +41,34 @@ searchButton.innerHTML = "Yahoo Search"
 // Bonus: Use a ul and li to display the books.
 // Bonus: add a property to each book with the URL of the book cover, and add an img element for each book on the page.
 // Bonus: Change the style of the book depending on whether you have read it or not.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
